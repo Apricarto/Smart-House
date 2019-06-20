@@ -1,0 +1,67 @@
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 50pt;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14pt;
+}
+a {
+    color: #212529;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 30pt;
+    text-decoration: underline;
+}
+a:hover {
+    color: #212529;
+    text-decoration: none;
+}
+a:active {
+    color: #E9E6E1;
+}
+.butt {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 30pt;
+    text-decoration: underline;
+}
+.input-name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14pt;
+    margin-bottom: -20px;
+}
+.line {
+    z-index:-999;
+    height: 3px;
+    background-image: linear-gradient(90deg, transparent, transparent 60%, #fff 40%, #fff 100%), linear-gradient(90deg, #E9E6E1, #E9E6E1);
+    background-size:70px 70px;
+    border: none;
+}
+.input {
+    background-color: #E9E6E1;
+    border: 0;
+    border-radius: 0;
+    height: 30px;
+    width: 250px;
+    display: block;
+}
+.form-control:focus {
+    border-color: #212529;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(33, 37, 41, 0.6);
+}
+.icon-button {
+    width: 60px;
+    height: 60px;
+    background: #E9E6E1;
+}
+.on {
+    color: #46C83B;
+}
+.off {
+    color: #C83B3B;
+}
